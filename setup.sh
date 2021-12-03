@@ -1,7 +1,7 @@
 #!/bin/sh
  
 sudo apt update
-sudo upt dist-upgrade
+sudo apt dist-upgrade
  
 sudo apt install gnome-shell-extensions
 sudo apt install gnome-shell-extension-prefs gnome-tweaks
@@ -15,3 +15,17 @@ sudo apt update
 apt list google*
 sudo apt-get install google-chrome-stable
 apt list --installed google*
+
+sudo apt-get install powertop
+sudo powertop
+sudo powertop --auto-tune
+sudo add-apt-repository ppa:linrunner/tlp
+sudo apt-get update
+sudo apt-get install tlp-rdw
+sudo tlp start
+sudo apt-get install gnome-shell-extensions
+sudo add-apt-repository ppa:linuxuprising/apps
+sudo apt-get update
+sudo apt-get install tlpui
+tlpui
+ 
