@@ -17,7 +17,6 @@ sudo apt-get install google-chrome-stable
 apt list --installed google*
 
 sudo apt-get install powertop
-sudo powertop
 sudo powertop --auto-tune
 sudo add-apt-repository ppa:linrunner/tlp
 sudo apt-get update
