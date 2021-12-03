@@ -2,6 +2,8 @@
  
 sudo apt update
 sudo apt dist-upgrade
+
+sudo apt install vim
  
 sudo apt install gnome-shell-extensions
 sudo apt install gnome-shell-extension-prefs gnome-tweaks
