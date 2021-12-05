@@ -29,4 +29,5 @@ sudo add-apt-repository ppa:linuxuprising/apps
 sudo apt-get update
 sudo apt-get install tlpui
 tlpui
+sudo timedatectl set-local-rtc true
  
